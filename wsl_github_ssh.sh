@@ -4,7 +4,7 @@
 ls -al ~/.ssh
 
 # Generate a new key.
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen -t rsa -b 4096 -C "3duardak1@gmail.com"
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 
